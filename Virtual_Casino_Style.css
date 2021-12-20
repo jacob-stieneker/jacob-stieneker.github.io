@@ -1,0 +1,59 @@
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+h1 {
+    color: rgb(173, 0, 0);
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 41%;
+    transform: translate(0, -50%);
+    outline-style: auto;
+}
+
+h2 {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    transform: translate(0, -50%);
+}
+
+p {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    transform: translate(0, -50%);
+}
+
+h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translate(0, -50%);
+}
+
+.button {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+
+h4 {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    transform: translate(0, -50%); 
+}

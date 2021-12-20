@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Casino Simulator</title>
+    <!-- Call CSS-->
+    <link rel="stylesheet" href="Virtual_Casino_Style.css">
+    <!-- Call JavaScript Code-->
+    <script type="text/javascript" src="Virtual_Casino_Script.js"></script>
+    <img src="Casino.jpg" id="bg" alt="">
+</head>
+<body>
+    <!-- Welcome to the Virtual Casino-->
+    <h1>Virtual Casino Simulator</h1>
+    <h2> 
+        Welcome to the Virtual Casino Simulator!  The rules are simple:
+        <br>
+    </h2>
+    <!-- Instructions-->
+    <p> 
+       - You will roll two virtual dice.
+       <br>
+       - If the value of die1 + die2 equals 7 or 11, you lose.
+       <br>
+       - If the value of die1 and die2 are equal and even, you win.
+    </p>
+    <h3> Press the "Roll the Dice!" button to roll the virtual dice!</h3>
+    <!-- Use this button to call the JavaScript Function-->
+    <button class="button" onclick="RollDice()"> Roll the Dice! </button>
+    
+    <h4>
+        <div id="die1Value">Die 1: </div>
+        <div id="die2Value">Die 2: </div>
+        <div id="sum">Roll Value: </div>
+        <br>
+        <div id="result">Press "Roll the Dice!"</div>
+    </h4>
+
+</body>
+</html>
